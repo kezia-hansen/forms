@@ -10,11 +10,15 @@
 
 <body>
     <h1>udfyld</h1>
-    <form action="tak.html" name="kontakt" netlify>
-        <label> Navn</label>
+    <form action="/tak" method="POST">
+        <label>Navn</label>
         <input type="text" name="fname">
         <button type="submit">Indsend Mig</button>
     </form>
+
+    <div id="tak-message" style="display: none;">
+        <h2>Tak</h2>
+    </div>
 </body>
 
 </html>
